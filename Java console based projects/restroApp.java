@@ -18,7 +18,7 @@ class restroApp
                      System.out.println(Blue+"Enter your budget \n 1 -> for 310/- \n 2 -> 360/- \n 3 -> for 410/- \n 4 -> for 470/- \n 5 -> for 600/- \n 6 -> for 700/-");
                      int budget = sc.nextInt();
                
-                     System.out.println(reset+"there is first 5 typ of budget and some item is same in all typ of budget\n so you select first those items");
+                     System.out.println(reset+"there is first 5 typ of budget and some item is same in all type of budget\n so you select first those items");
                     
                     System.out.println(Green+"*** you choose rice *** \n Enter \n 1-> for Simple rice    2 -> for veg pulao \n 3 -> for Jeera Rice     4 -> veg Fried Rice \n 5 -> Green peas pulao   6 -> veg biryani");
                     int rice = sc.nextInt();
@@ -107,7 +107,7 @@ class restroApp
                                     default : System.out.println(" Not available !");break;
                                     }
                                              
-                                 System.out.println(Blue+"*** Enter time how long your party will last *** \n Note :- if your party is under 3 hour or less so you dont have to pay more \n but if your party time is more then 3 hour you pay extra charge rupee 1500/- per hour");
+                                 System.out.println(Blue+"*** Enter time in hour how long your party will last *** \n Note :- if your party is under 3 hour or less so you dont have to pay more \n but if your party time is more then 3 hour you pay extra charge rupee 1500/- per hour");
                                  int time = sc.nextInt();
                                  if(time > 3)
                                  {
